@@ -47,7 +47,7 @@ public class ReportController {
 	 * 
 	 * 描述：统计公司新增的客户量 近day天的新增量
 	 * 
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param day
 	 * @param
@@ -300,7 +300,7 @@ public class ReportController {
 	/**
 	 * 
 	 * 描述：统计某个客户经理的服务情况
-	 * @author wanghaoyu
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param sCategory
 	 * @param day
@@ -328,7 +328,7 @@ public class ReportController {
 	/**
 	 * 
 	 * 描述：统计全部客户经理的服务情况
-	 * @author wanghaoyu
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param sCategory
 	 * @param day
@@ -357,7 +357,7 @@ public class ReportController {
 	 * 
 	 * @param report
 	 * @return
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	@RequiresAuthentication  //登录认证   公用
 	@Operation(name = "统计客户经理的客户量排名")
@@ -393,7 +393,7 @@ public class ReportController {
 	 * 
 	 * @param report
 	 * @return
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	@RequiresAuthentication  //登录认证   公用
 	@Operation(name = "统计客户订单排行")

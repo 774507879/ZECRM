@@ -9,14 +9,14 @@ import com.neuedu.crm.pojo.User;
 
 /**
  * 
- * @author WuJunyou
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述： 按照Example 统计记录总数
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param customerLossExample 查询条件
 	 * @return long 数据的数量
@@ -29,7 +29,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：按照Example 删除CustomerLoss
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param customerLossExample 
 	 * @return boolean 删除的结果
@@ -42,7 +42,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：按照CustomerLoss主键id删除CustomerLoss
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param id 数据字典id
 	 * @return boolean 删除结果
@@ -55,7 +55,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：插入一条CustomerLoss数据 如字段为空，则插入null
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param customerLoss  客户数据
 	 * @return boolean 插入结果
@@ -68,7 +68,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：插入一条CustomerLoss数据，如字段为空，则插入数据库表字段的默认值
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param customerLoss 客户数据
 	 * @return boolean 插入结果
@@ -81,7 +81,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：按照Example条件 模糊查询
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param customerLossExample 查询条件
 	 * @param pager 
@@ -95,7 +95,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：按照CustomerLoss 的id 查找 CustomerLoss
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param id 要查询的id
 	 * @return CustomerLoss 查到的数据或空值
@@ -108,7 +108,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：更新CustomerLoss
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param customerLoss 对象中若有空则更新字段为null
 	 * @param customerLossExample 为where条件
@@ -122,7 +122,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：更新CustomerLoss 
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param customerLoss 对象中若有空则不会更新此字段
 	 * @param customerLossExample 为where条件
@@ -136,7 +136,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：按照CustomerLoss id 更新CustomerLoss
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param customerLoss 对象中如有空则不会更新此字段
 	 * @return boolean
@@ -149,7 +149,7 @@ public interface ICustomerLossService {
 	/**
 	 * 
 	 * 描述：按照CustomerLoss id 更新CustomerLoss
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param customerLoss 对象中如有空则更新此字段为null
 	 * @return boolean
@@ -161,7 +161,7 @@ public interface ICustomerLossService {
 
 	/**
 	 * 描述：
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param customerLoss

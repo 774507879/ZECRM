@@ -32,7 +32,7 @@ import com.neuedu.crm.service.ISaleOpportunityService;
 import com.neuedu.crm.utils.Operation;
 
 /**
- * @author malizhi
+ * @author 盘泽湘
  *
  */
 @Operation(name="销售机会管理")
@@ -51,7 +51,7 @@ public class SaleOpportunityController {
 	
 	/**
 	 * 查看销售机会
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param page
 	 * @param limit
 	 * @param saleOpportunity
@@ -82,7 +82,7 @@ public class SaleOpportunityController {
 	
 	/**
 	 * 创建销售机会
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @return Map<String,Object>
 	 * @version 1.0
 	 * @exception Nothing
@@ -149,7 +149,7 @@ public class SaleOpportunityController {
 	
 	/**
 	 * 更新销售机会(未指派的销售机会才能更新)
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param saleOpportunity
 	 * @return Map<String,Object>
 	 * @version 1.0
@@ -186,7 +186,7 @@ public class SaleOpportunityController {
 	
 	/**
 	 * 删除销售机会(未指派的销售机会才能删除)
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param saleOpportunity
 	 * @return Map<String,Object>
 	 * @version 1.0
@@ -225,7 +225,7 @@ public class SaleOpportunityController {
 	
 	/**
 	 * 批量删除销售机会
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param ids
 	 * @return Map<String,Object>
 	 * @version 1.0
@@ -252,7 +252,7 @@ public class SaleOpportunityController {
 	
 	/**
 	 * 描述：根据用户的角色，展示相应的客户
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param request
 	 * @return Map<String,Object>
 	 * @version 1.0
@@ -285,7 +285,7 @@ public class SaleOpportunityController {
     
     /**
      * 根据客户ID查找此客户的所有联系人
-     * @author malizhi
+     * @author 盘泽湘
      * @param customerId
      * @return Map<String,Object>
      * @version 1.0

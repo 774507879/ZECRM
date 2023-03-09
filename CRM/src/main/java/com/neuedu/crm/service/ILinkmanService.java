@@ -6,14 +6,14 @@ import com.neuedu.crm.pojo.LinkmanExample;
 import com.neuedu.crm.pojo.User;
 /**
  * 
- * @author WuJunyou
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 public interface ILinkmanService {
 
 	/**
 	 * 根据linkmanExample统计条数
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param linkmanExample
 	 * @return long
 	 * @version 1.0
@@ -23,7 +23,7 @@ public interface ILinkmanService {
 
 	/**
 	 * 根据linkmanExample删除Linkman
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param linkmanExample
 	 * @return boolean
 	 * @version 1.0
@@ -33,7 +33,7 @@ public interface ILinkmanService {
 
     /**
      * 根据主键id删除Linkman
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return boolean
      * @version 1.0
@@ -43,7 +43,7 @@ public interface ILinkmanService {
 
     /**
      * 描述：插入一条Linkman数据，如果参数linkman中字段为空，代表此字段插入为空
-     * @author MaLizhi
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param linkman
@@ -55,7 +55,7 @@ public interface ILinkmanService {
 
     /**
      * 插入一条Linkman数据，如果参数linkman中字段为空，代表此字段为数据库默认值
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @return boolean
      * @version 1.0
@@ -65,7 +65,7 @@ public interface ILinkmanService {
 
     /**
      * 描述：根据linkmanExample查找Linkman
-     * @author MaLizhi
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param linkmanExample
@@ -78,7 +78,7 @@ public interface ILinkmanService {
     /**
      * 
      * 描述：
-     * @author MaLizhi
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param id
@@ -90,7 +90,7 @@ public interface ILinkmanService {
 
     /**
      * 更新Linkman，参数linkman中，如有有字段为空，代表不更新此字段，linkmanExample参数为where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @param linkmanExample
      * @return boolean
@@ -101,7 +101,7 @@ public interface ILinkmanService {
 
     /**
      * 更新Linkman，参数linkman中，如有有字段为空，代表对应也更新为空，linkmanExample参数为where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @param linkmanExample
      * @return boolean
@@ -112,7 +112,7 @@ public interface ILinkmanService {
 
     /**
      * 根据主键更新Linkman，参数linkman中，如果字段为空，代表不更新此字段
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @return boolean
      * @version 1.0
@@ -122,7 +122,7 @@ public interface ILinkmanService {
 
     /**
      * 根据主键更新Linkman，参数linkman中，如果字段为空，代表相应字段也更新为空
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @return boolean
      * @version 1.0
@@ -133,7 +133,7 @@ public interface ILinkmanService {
     /**
      * 
      * 描述：根据用户ID，查找该用户下的所有联系人信息
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param user

@@ -19,7 +19,7 @@ import com.neuedu.crm.pojo.UserExample;
 import com.neuedu.crm.service.IReportService;
 /**
  * 
- * @author HuangQingwen
+ * @@author 盘泽湘
  * @date 2018/07/24
  */
 @Service

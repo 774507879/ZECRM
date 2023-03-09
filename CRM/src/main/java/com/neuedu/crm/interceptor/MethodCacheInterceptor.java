@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  */
 public class MethodCacheInterceptor implements MethodInterceptor {
     private Logger logger = LoggerFactory.getLogger(MethodCacheInterceptor.class);

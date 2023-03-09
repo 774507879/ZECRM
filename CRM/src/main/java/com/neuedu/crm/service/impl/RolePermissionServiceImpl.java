@@ -13,7 +13,7 @@ import com.neuedu.crm.service.IRolePermissionService;
 
 /**
  * 
- * @author malizhi
+ * @author 盘泽湘
  *
  */
 @Service
@@ -25,7 +25,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 	
 	/**
 	 * 根据RolePermissionExample统计条数
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param rolePermissionExample
 	 * @return long
 	 * @version 1.0
@@ -38,7 +38,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 根据RolePermissionExample删除rolePermission
-     * @author malizhi
+     * @author 盘泽湘
      * @param rolePermissionExample
      * @return boolean
      * @version 1.0
@@ -56,7 +56,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 根据主键id删除rolePermission
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return boolean
      * @version 1.0
@@ -74,7 +74,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 插入一条数据，如果字段为空，插入的字段也为空
-     * @author malizhi
+     * @author 盘泽湘
      * @param rolePermission
      * @return boolean
      * @version 1.0
@@ -92,7 +92,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 插入一条数据，如果参数rolePermission中字段为空，代表字段为数据库默认值
-     * @author malizhi
+     * @author 盘泽湘
      * @param rolePermission
      * @return boolean
      * @version 1.0
@@ -110,7 +110,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 根据RolePermissionExample查找
-     * @author malizhi
+     * @author 盘泽湘
      * @param rolePermissionExample
      * @return List<RolePermission>
      * @version 1.0
@@ -123,7 +123,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 根据主键id查找RolePermission
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return RolePermission
      * @version 1.0
@@ -136,7 +136,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 更新RolePermission，如果传入的参数rolePermission中字段为空，代表不更新此字段，RolePermissionExample为where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param rolePermission
      * @param rolePermissionExample
      * @return boolean
@@ -155,7 +155,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 更新RolePermission，如果传入的参数rolePermission中字段为空，代表此字段也更新为空，RolePermissionExample为where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param rolePermission
      * @param rolePermissionExample
      * @return boolean
@@ -174,7 +174,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 更新RolePermission，如果传入的参数rolePermission中字段为空，代表不更新此字段
-     * @author malizhi
+     * @author 盘泽湘
      * @param rolePermission
      * @return boolean
      * @version 1.0
@@ -192,7 +192,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
     /**
      * 更新RolePermission,如果传入的参数rolePermission中字段为空，那么相应字段也更新为空
-     * @author malizhi
+     * @author 盘泽湘
      * @param rolePermission
      * @return boolean
      * @version 1.0
@@ -210,7 +210,7 @@ public class RolePermissionServiceImpl implements IRolePermissionService {
 
 	/**
      * 角色权限分配
-     * @author huangqingwen
+     * @@author 盘泽湘
      * @param rolePermission
      * @return int  插入的记录行数
      * @version 1.0

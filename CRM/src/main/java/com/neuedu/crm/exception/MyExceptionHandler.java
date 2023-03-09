@@ -17,7 +17,7 @@ import com.neuedu.crm.utils.RequestUtil;
 
 /**
  * 描述：全局的异常处理器
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 @ControllerAdvice
@@ -27,7 +27,7 @@ public class MyExceptionHandler {
     /**
      * 
      * 描述：处理全局Controller所抛出的未授权异常，并进行重定向
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param e
      * @return String

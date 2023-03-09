@@ -26,7 +26,7 @@ import com.neuedu.crm.utils.Operation;
 
 /**
  * 
- * @author wanghaoyu
+ * @author 盘泽湘
  * 
  */
 @Controller
@@ -41,7 +41,7 @@ public class LoginController {
     /**
      * 
      * 描述：登陆
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param user 用户
      * @param verifyCode 验证码
@@ -144,7 +144,7 @@ public class LoginController {
     /**
      * 
      * 描述：
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param request request请求
      * @return ModelAndView

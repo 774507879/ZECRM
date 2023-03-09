@@ -17,7 +17,7 @@ public interface RolePermissionMapper extends MyBatisBaseDao<RolePermission, Int
 	 * @param permissionIds
 	 * @param roleId
 	 * @return
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	public int insertRolePermission(@Param("permissionIds") Integer[] permissionIds, @Param("roleId") Integer roleId);
 }

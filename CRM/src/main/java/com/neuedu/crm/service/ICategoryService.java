@@ -6,14 +6,14 @@ import com.neuedu.crm.pojo.Category;
 import com.neuedu.crm.pojo.CategoryExample;
 
 /**
- * @author HuangQingwen
+ * @@author 盘泽湘
  * @date 2018/07/24
  */
 public interface ICategoryService {
     /**
      * 
      * 描述：按照Example 统计记录总数
-     * @author HuangQingwen
+     * @@author 盘泽湘
      * @version 1.0
      * @param categoryExample category模板
      * @return 
@@ -27,7 +27,7 @@ public interface ICategoryService {
 	/**
 	 * 
 	 * 描述：按照Example 删除category
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param categoryExample
 	 * @return 
@@ -40,7 +40,7 @@ public interface ICategoryService {
 	/**
 	 * 
 	 * 描述：
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param id
 	 * @return 
@@ -52,7 +52,7 @@ public interface ICategoryService {
 	
 	/**
 	 * 描述：插入一条category数据 如字段为空，则插入null
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param category
@@ -64,7 +64,7 @@ public interface ICategoryService {
 	
 	/**
 	 * 描述：插入一条category数据，如字段为空，则插入数据库表字段的默认值
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param category
@@ -76,7 +76,7 @@ public interface ICategoryService {
 	
 	/**
 	 * 描述：按照Example 条件 模糊查询
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param categoryExample
@@ -88,7 +88,7 @@ public interface ICategoryService {
 	
 	/**
 	 * 描述：按照category 的id 查找 category
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param id
@@ -100,7 +100,7 @@ public interface ICategoryService {
 	
 	/**
 	 * 描述：更新category ， category对象中若有空则不会更新此字段  categoryExample为where条件
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param category
@@ -113,7 +113,7 @@ public interface ICategoryService {
 	
 	/**
 	 * 描述：更新category， category对象中若有空则更新字段为null   categoryExample为where条件
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param category
@@ -126,7 +126,7 @@ public interface ICategoryService {
 	
 	/**
 	 * 描述：按照category id 更新category  category对象中如有空则不会更新此字段
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param category
@@ -138,7 +138,7 @@ public interface ICategoryService {
 	
 	/**
 	 * 描述：按照category id 更新category  category对象中如有空则更新此字段为null
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param category

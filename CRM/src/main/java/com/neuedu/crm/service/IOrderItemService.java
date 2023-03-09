@@ -7,14 +7,14 @@ import com.neuedu.crm.pojo.OrderItemExample;
 import com.neuedu.crm.pojo.Pager;
 /**
  * 
- * @author WuJunyou
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述： 按照Example 统计记录总数
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItemExample 查询条件
 	 * @return long 数据的数量
@@ -27,7 +27,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：按照Example 删除OrderItem
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItemExample 
 	 * @return boolean 删除的结果
@@ -40,7 +40,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：按照OrderItem主键id删除OrderItem
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param id 数据字典id
 	 * @return boolean 删除结果
@@ -53,7 +53,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：插入一条OrderItem数据 如字段为空，则插入null
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItem  客户数据
 	 * @return boolean 插入结果
@@ -66,7 +66,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：插入一条OrderItem数据，如字段为空，则插入数据库表字段的默认值
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItem 客户数据
 	 * @return boolean 插入结果
@@ -79,7 +79,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：按照Example条件 模糊查询
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItemExample 查询条件
 	 * @return List<OrderItem> 含OrderItem的list
@@ -92,7 +92,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：按照OrderItem 的id 查找 OrderItem
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param id 要查询的id
 	 * @return OrderItem 查到的数据或空值
@@ -105,7 +105,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：更新OrderItem
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItem 对象中若有空则更新字段为null
 	 * @param orderItemExample 为where条件
@@ -119,7 +119,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：更新OrderItem 
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItem 对象中若有空则不会更新此字段
 	 * @param orderItemExample 为where条件
@@ -133,7 +133,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：按照OrderItem id 更新OrderItem
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItem 对象中如有空则不会更新此字段
 	 * @return boolean
@@ -146,7 +146,7 @@ public interface IOrderItemService {
 	/**
 	 * 
 	 * 描述：按照OrderItem id 更新OrderItem
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param orderItem 对象中如有空则更新此字段为null
 	 * @return boolean
@@ -158,7 +158,7 @@ public interface IOrderItemService {
 
 	/**
 	 * 描述：分页获取订单的订单项
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
      * @param orderItemExample
      * @param pager

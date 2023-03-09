@@ -36,7 +36,7 @@ import com.neuedu.crm.utils.RedisUtil;
 
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 public class ShiroRealm extends AuthorizingRealm{

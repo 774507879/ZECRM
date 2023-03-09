@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.UUID;
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 public class RandomStringUtil {

@@ -71,7 +71,7 @@ public class UploadController {
     /**
      * 
      * 描述：保存文件
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param file
      * @param path

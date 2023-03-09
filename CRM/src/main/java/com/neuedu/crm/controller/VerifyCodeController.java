@@ -21,7 +21,7 @@ import com.neuedu.crm.utils.Operation;
 
 /**
  * 验证码获取
- * @author huangqingwen
+ * @@author 盘泽湘
  *
  */
 @Operation(name="验证码控制器")

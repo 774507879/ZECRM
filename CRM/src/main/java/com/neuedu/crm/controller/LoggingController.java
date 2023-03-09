@@ -24,7 +24,7 @@ import com.neuedu.crm.utils.TimeStamp;
 /**
  * 日志控制器
  * 
- * @author huangqingwen
+ * @@author 盘泽湘
  *
  */
 @Operation(name = "日志管理")
@@ -42,7 +42,7 @@ public class LoggingController {
 	 *            每页多少条数据
 	 * @param page
 	 *            当前页码
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @return
 	 */
 	@Operation(name = "查看日志")

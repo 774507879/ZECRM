@@ -7,7 +7,7 @@ import com.neuedu.crm.pojo.Report;
 
 /**
  * 
- * @author HuangQingwen
+ * @@author 盘泽湘
  * @date 2018/07/24
  */
 public interface IReportService {
@@ -15,7 +15,7 @@ public interface IReportService {
 	/**
      * 
      * 描述：统计公司新增的客户量 近n天的记录
-     * @author HuangQingwen
+     * @@author 盘泽湘
      * @version 1.0
      * @param n
      * @return 
@@ -28,7 +28,7 @@ public interface IReportService {
 	/**
      * 
      * 描述：统计公司损失的客户量 近n天的记录
-     * @author HuangQingwen
+     * @@author 盘泽湘
      * @version 1.0
      * @param n 天数
      * @param 
@@ -41,7 +41,7 @@ public interface IReportService {
 	
 	/**
 	 * 描述：描述：统计这一年的新增客户
-	 * @author HuangWanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param year 格式 2018
@@ -54,7 +54,7 @@ public interface IReportService {
 	
 	/**
 	 * 描述：按照月份统计这一年的新增客户
-	 * @author HuangWanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param year 格式 2018
@@ -67,7 +67,7 @@ public interface IReportService {
 	
 	/**
 	 * 描述：统计这个月每天的新增客户
-	 * @author HuangWanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param yearMonth
@@ -80,7 +80,7 @@ public interface IReportService {
 	
 	/**
 	 * 描述：统计这一年的跟踪记录
-	 * @author HuangWanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param year 格式 2018-12 2018-02
@@ -94,7 +94,7 @@ public interface IReportService {
     /**
      * 
      * 描述：按照月份统计这一年的跟踪记录
-     * @author HuangWanzong
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param year 格式 2018
@@ -109,7 +109,7 @@ public interface IReportService {
     /**
      * 
      * 描述：统计这个月每天的跟踪记录
-     * @author HuangWanzong
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param yearMonth 格式 2018-12 2018-02
@@ -123,7 +123,7 @@ public interface IReportService {
     
     /**
      * 描述：按照某个分类统计这一年的新增客户
-     * @author HuangWanzong
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param category 必须从Report中读取以 CATEGORY开头的静态变量
@@ -137,7 +137,7 @@ public interface IReportService {
 
     /**
      * 描述：按照某个分类统计这一月的新增客户
-     * @author HuangWanzong
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param category 必须从Report中读取以 CATEGORY开头的静态变量
@@ -152,7 +152,7 @@ public interface IReportService {
     /**
      * 
      * 描述：按照某个分类统计这一天的新增客户
-     * @author HuangWanzong
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param category 必须从Report中读取以 CATEGORY开头的静态变量
@@ -167,7 +167,7 @@ public interface IReportService {
     /**
      * 
      * 描述：按照某个分类和日期统计某个客户经理的服务数量等等
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param service 这个为从Report中的静态变量
      * @param day 表示查询近几天内的记录
@@ -182,7 +182,7 @@ public interface IReportService {
     /**
      * 
      * 描述：按照某个分类和日期统计全部客户经理的服务信息
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param service
      * @param day
@@ -196,7 +196,7 @@ public interface IReportService {
     /**
      * 
      * 描述：统计某时段内客户经理客户量的排名
-     * @author huangqingwen
+     * @@author 盘泽湘
      * @version 1.0
      * @param service
      * @param report
@@ -210,7 +210,7 @@ public interface IReportService {
     /**
      * 
      * 描述：统计某时段内客户与公司成交的金额数排名
-     * @author huangqingwen
+     * @@author 盘泽湘
      * @version 1.0
      * @param service
      * @param report
@@ -224,7 +224,7 @@ public interface IReportService {
     /**
 	 * 
 	 * 描述：统计公司的客户来源情况
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param report
 	 * @return List<Map<String,Object>>

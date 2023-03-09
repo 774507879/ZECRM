@@ -33,7 +33,7 @@ import com.neuedu.crm.service.ILinkmanService;
 import com.neuedu.crm.utils.Operation;
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 @Controller
@@ -92,7 +92,7 @@ public class CustomerCareController {
     /**
      * 
      * 描述：根据联系人id查找联系生日等信息
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param id
      * @return Map<String,Object>
@@ -129,7 +129,7 @@ public class CustomerCareController {
     /**
      * 
      * 描述：添加客户关怀信息
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param request
      * @param customerCare
@@ -166,7 +166,7 @@ public class CustomerCareController {
     /**
      * 
      * 描述：根据编号查找客户关怀记录
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param id
      * @return 
@@ -199,7 +199,7 @@ public class CustomerCareController {
     /**
      * 
      * 描述：处理客户关怀
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param customerCare
      * @return Map<String,Object>
@@ -232,7 +232,7 @@ public class CustomerCareController {
     /**
      * 
      * 描述：忽略客户的生日处理
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param id
      * @return 

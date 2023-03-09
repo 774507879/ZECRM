@@ -15,7 +15,7 @@ import javax.annotation.Resource;
 /**
  * Redis工具类
  * ：用于缓存数据
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 @Component

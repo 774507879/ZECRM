@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 
 /**
  * 
- * @author MaLizhi
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 public class FilterChainDefinitionMapBuilder {
@@ -12,7 +12,7 @@ public class FilterChainDefinitionMapBuilder {
 	/**
 	 * 
 	 * 描述：
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @return 
 	 * @exception Nothing

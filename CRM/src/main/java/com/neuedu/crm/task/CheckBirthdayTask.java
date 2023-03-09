@@ -25,7 +25,7 @@ import com.neuedu.crm.service.ILinkmanService;
 
 /**
  * 描述：用于定义检测联系人是否已经快到了
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 @Component
@@ -42,7 +42,7 @@ public class CheckBirthdayTask {
     /**
      * 
      * 描述：用于检测用户的生日是否在30天内，每天零点检查一次
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0 
      * @exception Nothing
      * @since 1.8

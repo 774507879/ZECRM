@@ -7,11 +7,11 @@ import java.time.temporal.TemporalUnit;
 import java.util.Date;
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  * @Description 用于对jdk8的localDateTime类型进行转换
  */
 /**
- * @author HuangWanzong
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 public class LocalDateTimeUtil {
@@ -28,7 +28,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：Date转换为LocalDateTime
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param date
@@ -42,7 +42,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：LocalDateTime转换为Date
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param time
@@ -57,7 +57,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：获取指定日期的毫秒
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param time
@@ -71,7 +71,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：获取指定日期的秒
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param time
@@ -85,7 +85,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：获取指定时间的指定格式
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param time
@@ -103,7 +103,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：获取当前时间的指定格式
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param pattern
@@ -117,7 +117,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：日期加上一个数,根据field不同加不同值,field为ChronoUnit.*
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param time
@@ -133,7 +133,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：日期减去一个数,根据field不同减不同值,field参数为ChronoUnit.*
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param time
@@ -167,7 +167,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：获取一天的开始时间，2017,7,22 00:00
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param time
@@ -184,7 +184,7 @@ public class LocalDateTimeUtil {
 
     /**
      * 描述：获取一天的结束时间，2017,7,22 23:59:59.999999999
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param time
@@ -201,7 +201,7 @@ public class LocalDateTimeUtil {
     
     /**
      * 描述：String转为LocalDateTime
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param localDateTimeStr

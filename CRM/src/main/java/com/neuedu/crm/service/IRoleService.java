@@ -6,14 +6,14 @@ import com.neuedu.crm.pojo.Role;
 import com.neuedu.crm.pojo.RoleExample;
 /**
  * 
- * @author MaLizhi
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 public interface IRoleService {
 
 	/**
 	 * 根据example统计role条数
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param roleExample
 	 * @return long
 	 * @version 1.0
@@ -23,7 +23,7 @@ public interface IRoleService {
 
 	/**
 	 * 根据example删除role
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param roleExample
 	 * @return boolean
 	 * @version 1.0
@@ -33,7 +33,7 @@ public interface IRoleService {
 
     /**
      * 根据主键删除role
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return boolean
      * @version 1.0
@@ -43,7 +43,7 @@ public interface IRoleService {
 
     /**
      * 插入一条role，字段为空，插入相应的字段也为空
-     * @author malizhi
+     * @author 盘泽湘
      * @param role
      * @return boolean
      * @version 1.0
@@ -53,7 +53,7 @@ public interface IRoleService {
 
     /**
      * 插入一条role，参数role中，如果字段为null，代表不插入此字段
-     * @author malizhi
+     * @author 盘泽湘
      * @param role
      * @return boolean
      * @version 1.0
@@ -63,7 +63,7 @@ public interface IRoleService {
 
     /**
      * 根据example查找role
-     * @author malizhi
+     * @author 盘泽湘
      * @param roleExample
      * @return List<Role>
      * @version 1.0
@@ -73,7 +73,7 @@ public interface IRoleService {
 
     /**
      * 根据主键id查找role
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return Role
      * @version 1.0
@@ -83,7 +83,7 @@ public interface IRoleService {
 
     /**
      * 更新role，参数role中，如果某些字段为空，代表不更新此字段，example代表where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param role
      * @param roleExample
      * @return boolean
@@ -94,7 +94,7 @@ public interface IRoleService {
 
     /**
      * 更新role，参数role中，如果某些字段为空，代表相应的字段也更新为空，example代表where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param role
      * @param roleExample
      * @return boolean
@@ -105,7 +105,7 @@ public interface IRoleService {
 
     /**
      * 更新role，传入的参数中，如果某些字段为空，代表不更新此字段
-     * @author malizhi
+     * @author 盘泽湘
      * @param role
      * @return boolean
      * @version 1.0
@@ -115,7 +115,7 @@ public interface IRoleService {
 
     /**
      * 更新role，传入的参数中，如果某些字段为空，代表相应字段也更新为空
-     * @author malizhi
+     * @author 盘泽湘
      * @param role
      * @return boolean
      * @version 1.0

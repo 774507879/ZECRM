@@ -7,14 +7,14 @@ import com.neuedu.crm.pojo.CustomerExample;
 import com.neuedu.crm.pojo.Linkman;
 
 /**
- * @author HuangQingwen
+ * @@author 盘泽湘
  * @date 2018/07/11
  */
 public interface ICustomerService {
 	
     /**
      * 描述：按照Example 统计记录总数
-     * @author HuangQingwen
+     * @@author 盘泽湘
      * @date 2018/07/11
      * @version 1.0
      * @param customerExample
@@ -26,7 +26,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：按照Example 删除Customer
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customerExample
@@ -38,7 +38,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：按照Customer主键id删除Customer
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param id
@@ -50,7 +50,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：插入一条Customer数据 如字段为空，则插入null
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customer
@@ -62,7 +62,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：插入一条Customer数据，如字段为空，则插入数据库表字段的默认值
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customer
@@ -74,7 +74,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：按照Example 条件 模糊查询
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customerExample
@@ -86,7 +86,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：按照Customer 的id 查找 Customer
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param id
@@ -98,7 +98,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：更新Customer ， Customer对象中若有空则不会更新此字段  CustomerExample为where条件
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customer
@@ -111,7 +111,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：更新Customer， Customer对象中若有空则更新字段为null   CustomerExample为where条件
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customer
@@ -124,7 +124,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：按照Customer id 更新Customer  Customer对象中如有空则不会更新此字段
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customer
@@ -136,7 +136,7 @@ public interface ICustomerService {
 	
 	/**
 	 * 描述：按照Customer id 更新Customer  Customer对象中如有空则更新此字段为null
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customer
@@ -148,7 +148,7 @@ public interface ICustomerService {
 
 	/**
 	 * 描述：添加客户，同时设置主要联系人
-	 * @author HuangWanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/11
 	 * @version 1.0
 	 * @param customer

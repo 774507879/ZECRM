@@ -19,7 +19,7 @@ import com.neuedu.crm.service.IOrdersService;
  * 
     * @ClassName: TashController
     * @Description: TODO(定时任务)
-    * @author 黄清文
+    * @author 盘泽湘
     * @date 2018年7月13日
     *
  */
@@ -40,7 +40,7 @@ public class TaskController {
     * @param     参数
     * @return void    返回类型
     * @throws
-    * @author huangqingwen 
+    * @@author 盘泽湘
 	*/
 	/**
 	 * 每天早上10：15触发 
@@ -96,7 +96,7 @@ public class TaskController {
 	    * @param @param loss    参数
 	    * @return void    返回类型
 	    * @throws
-	    * @author huangqingwen
+	    * @@author 盘泽湘
 	 */
 	public void insertCustomerLoss(Orders orders){
 		/**

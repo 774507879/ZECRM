@@ -6,14 +6,14 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * 
- * @author huangqingwen
+ * @@author 盘泽湘
  *
  */
 public class IpAdrressUtil {
 	/**
 	 * 获取用户真实的ip地址
 	 * @param request
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @return
 	 */
 	public static String getIpAdrress(HttpServletRequest request) {

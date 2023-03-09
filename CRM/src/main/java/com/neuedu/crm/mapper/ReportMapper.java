@@ -18,7 +18,7 @@ public interface ReportMapper{
 	/**
      * 
      * 描述：统计公司新增的客户量 近n天的记录
-     * @author huangqingwen
+     * @author 盘泽湘
      * @version 1.0
      * @param n 天数
      * @param 
@@ -33,7 +33,7 @@ public interface ReportMapper{
 	/**
      * 
      * 描述：统计公司损失的客户量 近n天的记录
-     * @author huangqingwen
+     * @@author 盘泽湘
      * @version 1.0
      * @param n 天数
      * @param 
@@ -45,7 +45,7 @@ public interface ReportMapper{
 	public List<Map<String, Object>> countCustomerDecrease(@Param("n")int n);
 	/**
 	 * 描述：查询某段时间内客户的新增客户
-	 * @author HuangWanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param report
@@ -56,7 +56,7 @@ public interface ReportMapper{
 	public List<Map<String, Object>> countCustomerByDate(Report report);
 	/**
 	 * 描述：查询某段时间内客户的新增跟进记录
-	 * @author HuangWanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param report
@@ -67,7 +67,7 @@ public interface ReportMapper{
 	public List<Map<String, Object>> countFollowupByDate(Report report);
 	/**
 	 * 描述：查询某段时间内客户的新增客户,按照某个客户信息某个字段分类
-	 * @author HuangWanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param report
@@ -85,7 +85,7 @@ public interface ReportMapper{
 	    * @param @return    参数
 	    * @return List<Map<String,Object>>    返回类型
 	    * @throws
-	    * @author huangqingwen
+	    * @@author 盘泽湘
 	 */
 	public List<Map<String, Object>> countManagerCustomerRank(Report report);
 	
@@ -97,14 +97,14 @@ public interface ReportMapper{
 	    * @param @return    参数
 	    * @return List<Map<String,Object>>    返回类型
 	    * @throws
-	    * @author huangqingwen
+	    * @@author 盘泽湘
 	 */
 	public List<Map<String, Object>> customerOrderPriceRank(Report report);
 	
 	/**
 	 * 
 	 * 描述：统计某个时段内某个客户经理服务的情况
-	 * @author wanghaoyu
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param report
 	 * @return List<Map<String,Object>>
@@ -117,7 +117,7 @@ public interface ReportMapper{
 	/**
 	 * 
 	 * 描述：统计公司的客户来源情况
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param report
 	 * @return List<Map<String,Object>>

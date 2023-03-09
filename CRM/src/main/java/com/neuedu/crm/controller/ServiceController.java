@@ -31,7 +31,7 @@ import com.neuedu.crm.utils.Operation;
 
 /**
  * 
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 @Controller
@@ -52,7 +52,7 @@ public class ServiceController {
     /**
      * 
      * 描述：查找服务
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param page
      * @param limit
@@ -130,7 +130,7 @@ public class ServiceController {
     /**
      * 
      * 描述：查找属于当前客户经理的客户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @return Map<String,Object>
      * @exception Nothing
@@ -166,7 +166,7 @@ public class ServiceController {
     /**
      * 
      * 描述：批量删除服务
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param ids
      * @return Map<String,Object>
@@ -198,7 +198,7 @@ public class ServiceController {
     /**
      * 
      * 描述：添加服务
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param request
      * @param service
@@ -239,7 +239,7 @@ public class ServiceController {
     /**
      * 
      * 描述：编辑服务
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param request
      * @param service
@@ -277,7 +277,7 @@ public class ServiceController {
     /**
      * 
      * 描述：根据服务ID查找服务
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param request
      * @param id

@@ -14,7 +14,7 @@ import com.neuedu.crm.service.IPermissionService;
 
 /**
  * 
- * @author malizhi
+ * @author 盘泽湘
  *
  */
 @Service
@@ -26,7 +26,7 @@ public class PermissionServiceImpl implements IPermissionService {
 	
 	/**
 	 * 根据example统计permission条数
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param permissionExample+
 	 * @return long
 	 * @version 1.0
@@ -39,7 +39,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
 	/**
 	 * 根据example删除permission
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param permissionExample
 	 * @return boolean
 	 * @version 1.0
@@ -57,7 +57,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 根据主键删除permission
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return boolean
      * @version 1.0
@@ -75,7 +75,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 插入一条permission，如果字段为空，那么插入null
-     * @author malizhi
+     * @author 盘泽湘
      * @param permission
      * @return boolean
      * @version 1.0
@@ -93,7 +93,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 插入一条permission，如果字段为空，插入的是数据库中字段的默认值
-     * @author malizhi
+     * @author 盘泽湘
      * @param permission
      * @return boolean
      * @version 1.0
@@ -111,7 +111,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 根据example查找permission
-     * @author huangqingwen
+     * @@author 盘泽湘
      * @param permissionExample
      * @return List<Permission>
      * @version 1.0
@@ -127,7 +127,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 根据主键id查找permission
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return Permission
      * @version 1.0
@@ -140,7 +140,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 更新permission，参数permission中如果某个字段为空代表不更新此字段，example为where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param permission
      * @param permissionExample
      * @return boolean
@@ -159,7 +159,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 更新permission，参数permission中如果某个字段为空代表此字段也更新为空，example为where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param permission
      * @param permissionExample
      * @return boolean
@@ -178,7 +178,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 根据主键id更新permission，参数permission中某些字段为空，代表不更新此字段
-     * @author malizhi
+     * @author 盘泽湘
      * @param permission
      * @return boolean
      * @version 1.0
@@ -196,7 +196,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     /**
      * 根据主键id更新permission，参数permission中如果有字段为空，代表更新为null
-     * @author malizhi
+     * @author 盘泽湘
      * @param permission
      * @return boolean
      * @version 1.0

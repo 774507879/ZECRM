@@ -22,7 +22,7 @@ import com.neuedu.crm.utils.Operation;
 
 /**
  * 订单控制器
- * @author huangqingwen
+ * @@author 盘泽湘
  *
  */
 @Operation(name="订单控制器")
@@ -40,7 +40,7 @@ public class OrdersController {
 	 * 获取客户的历史订单信息
 	 * @param customer
 	 * @return
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	@Operation(name="获取客户的历史订单")
 	@RequiresAuthentication
@@ -64,7 +64,7 @@ public class OrdersController {
 	 * 获取订单的订单项
 	 * @param orderItem
 	 * @return
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	@Operation(name="获取订单的订单项")
 	@RequiresAuthentication

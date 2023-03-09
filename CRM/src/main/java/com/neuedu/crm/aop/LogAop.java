@@ -28,7 +28,7 @@ import com.neuedu.crm.utils.Operation;
  *   
     * @ClassName: LogAop
     * @Description: TODO(日志aop)
-    * @author 黄清文
+    * @author 盘泽湘
     * @date 2018年7月18日
     *
  */
@@ -108,7 +108,7 @@ public class LogAop {
 	/**
 	 * 
 	 * 描述：@AfterReturning("log()")
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @date 
 	 * @version 1.0
 	 * @param joinPoint void
@@ -160,7 +160,7 @@ public class LogAop {
 
 	/**
 	 * 描述：@AfterThrowing(pointcut="log()", throwing="e")
-	 * @author huangwanzong
+	 * @author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param joinPoint

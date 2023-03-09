@@ -9,7 +9,7 @@ import org.springframework.core.convert.converter.Converter;
 
 /**
  * 描述：自定义时间转换器
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 public class LocalDateConverter implements Converter<String, LocalDate>{

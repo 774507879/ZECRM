@@ -11,7 +11,7 @@ import java.util.Locale;
  * 时间格式工具
  * 1. 获得当前的时间戳 getNowTimeStamp
  * 2. 将Unix时间戳转换成指定格式日期字符串 TimeStamp2Date(String timestampString, String formats)
- * @author huangqingwen
+ * @@author 盘泽湘
  *
  */
 public class TimeStamp {

@@ -6,14 +6,14 @@ import com.neuedu.crm.pojo.Service;
 import com.neuedu.crm.pojo.ServiceExample;
 /**
  * 
- * @author WuJunyou
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 public interface IServiceService {
 	/**
 	 * 
 	 * 描述： 按照Example 统计记录总数
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param serviceExample 查询条件
 	 * @return long 数据的数量
@@ -26,7 +26,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：按照Example 删除Service
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param serviceExample 
 	 * @return boolean 删除的结果
@@ -39,7 +39,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：按照Service主键id删除Service
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param id 数据字典id
 	 * @return boolean 删除结果
@@ -52,7 +52,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：插入一条Service数据 如字段为空，则插入null
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param service  客户数据
 	 * @return boolean 插入结果
@@ -65,7 +65,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：插入一条Service数据，如字段为空，则插入数据库表字段的默认值
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param service 客户数据
 	 * @return boolean 插入结果
@@ -78,7 +78,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：按照Example条件 模糊查询
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param serviceExample 查询条件
 	 * @return List<Service> 含Service的list
@@ -91,7 +91,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：按照Service 的id 查找 Service
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param id 要查询的id
 	 * @return Service 查到的数据或空值
@@ -104,7 +104,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：更新Service
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param service 对象中若有空则更新字段为null
 	 * @param serviceExample 为where条件
@@ -118,7 +118,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：更新Service 
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param service 对象中若有空则不会更新此字段
 	 * @param serviceExample 为where条件
@@ -132,7 +132,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：按照Service id 更新Service
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param service 对象中如有空则不会更新此字段
 	 * @return boolean
@@ -145,7 +145,7 @@ public interface IServiceService {
 	/**
 	 * 
 	 * 描述：按照Service id 更新Service
-	 * @author wujunyou
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param service 对象中如有空则更新此字段为null
 	 * @return boolean
@@ -157,7 +157,7 @@ public interface IServiceService {
 
     /**
      * 描述：批量删除服务
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param ids
      * @return 

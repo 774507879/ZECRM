@@ -24,7 +24,7 @@ import com.neuedu.crm.service.IOrderItemService;
 import com.neuedu.crm.service.IOrdersService;
 
 /**
- * @author malizhi
+ * @author 盘泽湘
  *
  */
 public class OrderTest {
@@ -36,7 +36,7 @@ public class OrderTest {
     
     /**
      * 初始化环境
-     * @author malizhi void
+     * @author 盘泽湘 void
      * @version 1.0
      * @exception Nothing
      */
@@ -54,7 +54,7 @@ public class OrderTest {
     
     /**
      * 用于向订单表随机插入数据
-     * @author malizhi void
+     * @author 盘泽湘 void
      * @version 1.0
      * @exception Nothing
      */
@@ -92,7 +92,7 @@ public class OrderTest {
 	
     /**
      * 用于向订单子项随机插入数据
-     * @author malizhi void
+     * @author 盘泽湘 void
      * @version 1.0
      * @exception Nothing
      */
@@ -122,7 +122,7 @@ public class OrderTest {
     
     /**
      * 订单价格的更新
-     * @author malizhi void
+     * @author 盘泽湘 void
      * @version 1.0
      * @exception Nothing
      */

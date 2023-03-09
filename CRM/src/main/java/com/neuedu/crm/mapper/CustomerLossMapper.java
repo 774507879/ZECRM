@@ -22,7 +22,7 @@ public interface CustomerLossMapper extends MyBatisBaseDao<CustomerLoss, Integer
     * @param @return    参数
     * @return int    返回类型
     * @throws
-    * @author huangqingwen
+    * @@author 盘泽湘
 	*/
 	public int insertLossBatch(@Param("orders")List<Orders> orders);
 }

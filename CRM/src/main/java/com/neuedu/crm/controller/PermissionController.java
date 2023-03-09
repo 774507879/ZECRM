@@ -23,7 +23,7 @@ import com.neuedu.crm.utils.RedisUtil;
 
 /**
  * 权限管理
- * @author huangqingwen
+ * @@author 盘泽湘
  *
  */
 @Operation(name="权限管理")
@@ -78,7 +78,7 @@ public class PermissionController {
 	 * 权限更新
 	 * @param permission
 	 * @return
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	@Operation(name="更新权限")
 	@RequiresPermissions("3002")
@@ -167,7 +167,7 @@ public class PermissionController {
 	 * 权限删除
 	 * @param permissionId
 	 * @return
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	@Operation(name="删除权限")
 	@RequiresPermissions("3004")
@@ -197,7 +197,7 @@ public class PermissionController {
 	 * 获取权限树
 	 * @param 
 	 * @return 
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	@Operation(name="获取权限树")
 	@RequiresPermissions("3005")

@@ -14,7 +14,7 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 public class MailUtil {
@@ -33,7 +33,7 @@ public class MailUtil {
 
     /**
      * 描述：Spring 依赖注入
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @date 
      * @version 1.0
      * @param mailSender
@@ -46,7 +46,7 @@ public class MailUtil {
     
     /**
      * 描述：Spring 依赖注入
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @date 
      * @version 1.0
      * @param simpleMailMessage void
@@ -88,7 +88,7 @@ public class MailUtil {
     
     /**
      * 发送带附件的邮件
-     * @author malizhi
+     * @author 盘泽湘
      * @param recipient
      * @param subject
      * @param content

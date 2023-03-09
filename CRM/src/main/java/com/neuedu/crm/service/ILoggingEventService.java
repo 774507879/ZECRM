@@ -6,14 +6,14 @@ import com.neuedu.crm.pojo.LoggingEvent;
 import com.neuedu.crm.pojo.LoggingEventExample;
 import com.neuedu.crm.pojo.Pager;
 /**
- * @author HuangQingwen
+ * @@author 盘泽湘
  * @date 2018/07/24
  */
 public interface ILoggingEventService {
 
     /**
      * 描述：按照Example 统计记录总数
-     * @author HuangQingwen
+     * @@author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param loggingEventExample
@@ -25,7 +25,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：按照Example 删除LoggingEvent
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param loggingEventExample
@@ -37,7 +37,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：按照LoggingEvent主键id删除LoggingEvent
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param id
@@ -49,7 +49,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：插入一条LoggingEvent数据 如字段为空，则插入null
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param loggingEvent
@@ -61,7 +61,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述： 插入一条LoggingEvent数据，如字段为空，则插入数据库表字段的默认值
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param loggingEvent
@@ -73,7 +73,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：按照Example 条件 模糊查询
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param loggingEventExample
@@ -86,7 +86,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：按照LoggingEvent 的id 查找 LoggingEvent
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param id
@@ -98,7 +98,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：更新LoggingEvent ， LoggingEvent对象中若有空则不会更新此字段  LoggingEventExample为where条件
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param loggingEvent
@@ -111,7 +111,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：更新LoggingEvent， LoggingEvent对象中若有空则更新字段为null   LoggingEventExample为where条件
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param loggingEvent
@@ -124,7 +124,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：按照LoggingEvent id 更新LoggingEvent  LoggingEvent对象中如有空则不会更新此字段
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param loggingEvent
@@ -136,7 +136,7 @@ public interface ILoggingEventService {
 	
 	/**
 	 * 描述：按照LoggingEvent id 更新LoggingEvent  LoggingEvent对象中如有空则更新此字段为null
-	 * @author HuangQingwen
+	 * @@author 盘泽湘
 	 * @date 2018/07/24
 	 * @version 1.0
 	 * @param loggingEvent

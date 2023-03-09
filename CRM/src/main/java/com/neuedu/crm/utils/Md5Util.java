@@ -6,7 +6,7 @@ package com.neuedu.crm.utils;
 import org.apache.shiro.crypto.hash.SimpleHash;
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 public class Md5Util {
@@ -23,7 +23,7 @@ public class Md5Util {
     /**
      * 
      * 描述：对信息进行MD5盐值加密
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param message
      * @param salt

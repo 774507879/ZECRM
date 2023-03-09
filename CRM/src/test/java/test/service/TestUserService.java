@@ -17,7 +17,7 @@ import com.neuedu.crm.pojo.UserExample;
 import com.neuedu.crm.service.IUserService;
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 public class TestUserService {

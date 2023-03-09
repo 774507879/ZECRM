@@ -14,7 +14,7 @@ import com.neuedu.crm.pojo.User;
 import com.neuedu.crm.service.ICustomerTransferService;
 /**
  * 
- * @author WangHaoyu
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 @Service

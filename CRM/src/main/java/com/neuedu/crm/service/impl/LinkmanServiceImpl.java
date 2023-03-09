@@ -18,7 +18,7 @@ import com.neuedu.crm.pojo.CustomerExample.Criteria;
 import com.neuedu.crm.service.ILinkmanService;
 /**
  * 
- * @author malizhi
+ * @author 盘泽湘
  *
  */
 @Service
@@ -33,7 +33,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 	
 	/**
 	 * 根据linkmanExample统计条数
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param linkmanExample
 	 * @return long
 	 * @version 1.0
@@ -47,7 +47,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
 	/**
 	 * 根据linkmanExample删除Linkman
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @param linkmanExample
 	 * @return boolean
 	 * @version 1.0
@@ -65,7 +65,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 根据主键id删除Linkman
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return boolean
      * @version 1.0
@@ -89,7 +89,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 插入一条Linkman数据，如果参数linkman中字段为空，代表此字段插入为空
-     * @author malizhi
+     * @author 盘泽湘
      * @param record
      * @return boolean
      * @version 1.0
@@ -107,7 +107,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 插入一条Linkman数据，如果参数linkman中字段为空，代表此字段为数据库默认值
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @return boolean
      * @version 1.0
@@ -125,7 +125,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 根据linkmanExample查找Linkman
-     * @author malizhi
+     * @author 盘泽湘
      * @param example
      * @return List<Model>
      * @version 1.0
@@ -138,7 +138,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 
-     * @author malizhi
+     * @author 盘泽湘
      * @param id
      * @return Linkman
      * @version 1.0
@@ -160,7 +160,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 更新Linkman，参数linkman中，如有有字段为空，代表不更新此字段，linkmanExample参数为where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @param linkmanExample
      * @return boolean
@@ -179,7 +179,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 更新Linkman，参数linkman中，如有有字段为空，代表对应也更新为空，linkmanExample参数为where条件
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @param linkmanExample
      * @return boolean
@@ -198,7 +198,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 根据主键更新Linkman，参数linkman中，如果字段为空，代表不更新此字段
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @return boolean
      * @version 1.0
@@ -216,7 +216,7 @@ public class LinkmanServiceImpl implements ILinkmanService {
 
     /**
      * 根据主键更新Linkman，参数linkman中，如果字段为空，代表相应字段也更新为空
-     * @author malizhi
+     * @author 盘泽湘
      * @param linkman
      * @return boolean
      * @version 1.0

@@ -23,7 +23,7 @@ import com.neuedu.crm.utils.Operation;
 
 /**
  * 
- * @author malizhi
+ * @author 盘泽湘
  *
  */
 @Operation(name="产品管理")
@@ -41,7 +41,7 @@ public class ProductController {
 	/**
 	 * 分页查找产品
 	 * 
-	 * @author malizhi
+	 * @author 盘泽湘
 	 * @return Map<String,Object>
 	 * @version 1.0
 	 * @exception Nothing

@@ -21,7 +21,7 @@ public interface LoggingEventMapper extends MyBatisBaseDao<LoggingEvent, Long, L
 	    * @param @return    参数
 	    * @return List<LoggingEvent>    返回类型
 	    * @throws
-	    * @author huangqingwen
+	    * @@author 盘泽湘
 	 */
 	public List<LoggingEvent> selectByExampleWithBLOBs(LoggingEventExample loggingEventExample);
 	

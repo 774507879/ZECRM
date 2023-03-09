@@ -6,7 +6,7 @@ import com.neuedu.crm.pojo.User;
 import com.neuedu.crm.pojo.UserExample;
 /**
  * 
- * @author WangHaoyu
+ * @author 盘泽湘
  * @date 2018/07/24
  */
 public interface IUserService {
@@ -14,7 +14,7 @@ public interface IUserService {
     /**
      * 
      * 描述：根据用户名查找用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param account
      * @return 
@@ -27,7 +27,7 @@ public interface IUserService {
     /**
      * 
      * 描述：添加用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param user
      * @return boolean
@@ -40,7 +40,7 @@ public interface IUserService {
     /**
      * 
      * 描述：根据id删除用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param id
      * @return 
@@ -53,7 +53,7 @@ public interface IUserService {
     /**
      * 
      * 描述：根据id查找用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param id
      * @return 
@@ -66,7 +66,7 @@ public interface IUserService {
     /**
      * 
      * 描述：根据模板查找用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param userExample 用户查询模板
      * @return 
@@ -79,7 +79,7 @@ public interface IUserService {
     /**
      * 
      * 描述：根据模板统计数量
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param userExample
      * @return 
@@ -91,7 +91,7 @@ public interface IUserService {
     /**
      * 
      * 描述：根据id修改用户信息
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param user
      * @return 
@@ -104,7 +104,7 @@ public interface IUserService {
     /**
      * 
      * 描述:对用户的密码进行加密
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param user
      * @return User
@@ -117,7 +117,7 @@ public interface IUserService {
     /**
      * 
      * 描述：修改用户密码
-     * @author WangHaoyu
+     * @author 盘泽湘
      * @date 2018/07/24
      * @version 1.0
      * @param user
@@ -131,7 +131,7 @@ public interface IUserService {
     /**
      * 
      * 描述：根据邮箱查找用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param email
      * @return User

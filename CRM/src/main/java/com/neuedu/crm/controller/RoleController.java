@@ -31,7 +31,7 @@ import com.neuedu.crm.utils.RedisUtil;
 
 /**
  * 
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 @Controller
@@ -56,7 +56,7 @@ public class RoleController {
 	 * 
 	 * 描述：分页加条件查询Role
 	 * 
-	 * @author wanghaoyu
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param page
 	 * @param limit
@@ -112,7 +112,7 @@ public class RoleController {
 	 * 
 	 * 描述：根据职位编号删除职位
 	 * 
-	 * @author wanghaoyu
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param id
 	 * @return Map<String,Object>
@@ -141,7 +141,7 @@ public class RoleController {
 	 * 
 	 * 描述：编辑职位
 	 * 
-	 * @author wanghaoyu
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param role
 	 * @return Map<String,Object>
@@ -169,7 +169,7 @@ public class RoleController {
 	 * 
 	 * 描述：添加职位
 	 * 
-	 * @author wanghaoyu
+	 * @author 盘泽湘
 	 * @version 1.0
 	 * @param role
 	 * @return Map<String,Object>
@@ -197,7 +197,7 @@ public class RoleController {
 	 * 
 	 * 描述：查询角色所拥有的权限id
 	 * 
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param rolePermission
 	 * @return Map<String,Object>
@@ -225,7 +225,7 @@ public class RoleController {
 	 * 
 	 * 描述：分配权限给特定的角色
 	 * 
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param permissionId，
 	 *            roleId
@@ -272,7 +272,7 @@ public class RoleController {
 	 * 
 	 * 描述：获取用户角色的权限菜单
 	 * 
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 * @version 1.0
 	 * @param request
 	 * @return Map<String,Object>
@@ -335,7 +335,7 @@ public class RoleController {
      * @param permissions
      * @param array
      * @return
-     * @author huangqingwen
+     * @@author 盘泽湘
      */
     public List<Permission> getUserPermission(List<Permission> permissions, Integer[] array){
     	if(permissions == null) {

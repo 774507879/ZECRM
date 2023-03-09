@@ -15,7 +15,7 @@ public interface PermissionMapper extends MyBatisBaseDao<Permission, Integer, Pe
 	 * 查询父级权限
 	 * @param pid
 	 * @return
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	public Permission selectParentPermissionByPid(Integer pid);
 	
@@ -23,7 +23,7 @@ public interface PermissionMapper extends MyBatisBaseDao<Permission, Integer, Pe
 	 * 查询权限树结构
 	 * @param 
 	 * @return  List<Permission>
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	public List<Permission> selectTreePermission();
 	
@@ -35,7 +35,7 @@ public interface PermissionMapper extends MyBatisBaseDao<Permission, Integer, Pe
     * @param @return    参数
     * @return List<Permission>    返回类型
     * @throws
-    * @author huangqingwen
+    * @@author 盘泽湘
 	*/
 	public List<Permission> selectChildPermission(Integer id);
 
@@ -46,7 +46,7 @@ public interface PermissionMapper extends MyBatisBaseDao<Permission, Integer, Pe
     * @param permission
     * @return int
     * @throws
-    * @author huangqingwen
+    * @@author 盘泽湘
 	*/
 	public int setTopPermission(Permission permission);
 }

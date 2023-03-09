@@ -96,7 +96,7 @@ public class OrdersServiceImpl implements IOrdersService {
 
 	/**
 	 * 分页查询客户历史订单信息
-	 * @author huangqingwen
+	 * @@author 盘泽湘
 	 */
 	@Override
 	public List<Orders> selectByOrdersExample(OrdersExample ordersExample, Pager pager) {

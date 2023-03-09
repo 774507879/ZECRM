@@ -34,7 +34,7 @@ import com.neuedu.crm.utils.RandomStringUtil;
 import com.neuedu.crm.utils.RedisUtil;
 
 /**
- * @author wanghaoyu
+ * @author 盘泽湘
  *
  */
 @Controller
@@ -116,7 +116,7 @@ public class UserController {
     /**
      * 
      * 描述：根据编号查找用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param id
      * @return 
@@ -150,7 +150,7 @@ public class UserController {
     /**
      * 
      * 描述：根据用户ID删除用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param id 用户编号
      * @return Map<String,Object>
@@ -177,7 +177,7 @@ public class UserController {
     /**
      * 
      * 描述：编辑用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param user 要编辑的用户信息
      * @return Map<String,Object>
@@ -209,7 +209,7 @@ public class UserController {
     /**
      * 
      * 描述：添加用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param user 要添加的用户信息
      * @return Map<String,Object>
@@ -240,7 +240,7 @@ public class UserController {
     /**
      * 
      * 描述：查找所有的角色
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @return Map<String,Object>
      * @exception Nothing
@@ -263,7 +263,7 @@ public class UserController {
     /**
      * 
      * 描述：查找除当前登录的客户经理外的所有的客户经理
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param request
      * @return Map<String,Object>
@@ -301,7 +301,7 @@ public class UserController {
     /**
      * 
      * 描述：检查用户账号是否可用
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param account
      * @return Map<String,Object>
@@ -327,7 +327,7 @@ public class UserController {
     /**
      * 
      * 描述：检查用户邮箱是否可用
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param email
      * @return Map<String,Object>
@@ -353,7 +353,7 @@ public class UserController {
     /**
      * 
      * 描述：根据session域里面的用户编号查找当前登录的用户
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param id
      * @return Map<String,Object>
@@ -391,7 +391,7 @@ public class UserController {
     /**
      * 
      * 描述：用户修改密码
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param user
      * @return Map<String,Object>
@@ -423,7 +423,7 @@ public class UserController {
     /**
      * 
      * 描述：获取忘记密码时的验证码
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param email
      * @return 
@@ -467,7 +467,7 @@ public class UserController {
     /**
      * 
      * 描述： 重设密码
-     * @author wanghaoyu
+     * @author 盘泽湘
      * @version 1.0
      * @param email
      * @return 
